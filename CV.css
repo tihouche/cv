@@ -8,7 +8,7 @@ body{
     border: 3px blue solid;
 }
 .info{
-	float : left;
+	float : right;
 }
 .infophoto{
  margin-bottom : 190px;
