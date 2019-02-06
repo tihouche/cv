@@ -1,19 +1,28 @@
-.mdl-slider__container {
-    background-color: blue; /* Met le fond de la barre en blanc */
-    position: fixed; /* Permet de définir la position de la barre comme fixe */
-    top: 0; /* Défini la postion de la barre en haut */
-    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
-    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
-}
-
 body{ 
 	width : 780px;
 	margin : auto;
 	font-size : 16px;
 	font-family : 'Source sans Pro', Calibri, Tahoma, sons-serfi;
 }
+
+.image0 {
+	width: 800px;
+	height: 200px;
+}
+.image {
+	width: 150px;
+	height: 150px;
+	border: 1px solid;
+	float : left;
+	float : height;
+}
+
 .div{
     border: 3px blue solid;
+}
+
+.infophoto{
+ margin-bottom : 190px;
 }
 
 .info{
@@ -49,4 +58,12 @@ h3
 
 dd{
 font-size : 14px;
+}
+
+.mdl-slider__container {
+    background-color: blue !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 70vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
 }
